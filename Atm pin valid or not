@@ -1,0 +1,22 @@
+pin=2543
+value=int(input('Enter pin no:))
+if pin==value:
+    print('pin is valid')
+    print('continue the transaction')
+else:
+    print('pin is not valid')
+    print('incorrect pin number')
+    print('please try again')
+    
+    Output:1
+    =========
+    Enter pin no:2543
+    pin is valid 
+    continue the transaction 
+  
+  Output:2
+  ========
+  Enter pin no:2345
+  pin is invalid
+  incorrect pin number
+  please try again
